@@ -3,13 +3,13 @@
 This Matlab toolbox implements some techniques for SPD matrices. The following techniques are available:
 
  - SPD-COV:  	compute covariance on the SPD manifold    
- - SPD-LDV: 	compute riemannian local difference vectors on the SPD manifold   
- - SPD-Means:	compute riemannian means on the SPD manifold   
+ - SPD-LDV: 	compute Riemannian local difference vectors on the SPD manifold   
+ - SPD-Means:	compute Riemannian means on the SPD manifold   
  - SPD-Metrics:	compute geodesic distances on the SPD manifold   
 
 
 
-Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)  
+Written by Kai-Xuan Chen (e-mail: chenkx.jsh@aliyun.com, chenkx@zju.edu.cn)  
 
 If you find this code useful for your research, we appreciate it very much if you can cite our related works:
 
@@ -29,6 +29,19 @@ BibTex :
 BibTex : 
 
 ```
+@inproceedings{chen2018riemannian,
+  title={Riemannian kernel based Nystr{\"o}m method for approximate infinite-dimensional covariance descriptors with application to image set classification},
+  author={Chen, Kai-Xuan and Wu, Xiao-Jun and Wang, Rui and Kittler, Josef},
+  booktitle={International conference on pattern recognition (ICPR)},
+  pages={651--656},
+  year={2018},
+  organization={IEEE}
+}
+```
+
+
+BibTex : 
+```
 @inproceedings{chen2019more,
   title={More About Covariance Descriptors for Image Set Coding: Log-Euclidean Framework based Kernel Matrix Representation},
   author={Chen, Kai-Xuan and Wu, Xiao-Jun and Ren, Jie-Yi and Wang, Rui and Kittler, Josef},
@@ -37,6 +50,7 @@ BibTex :
   year={2019}
 }
 ```
+
 
 BibTex : 
 ```
@@ -50,4 +64,3 @@ BibTex :
       year={2018},  
       publisher={Springer}  
 }  
-```
